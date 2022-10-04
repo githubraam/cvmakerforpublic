@@ -1,0 +1,29 @@
+.formWrapper{
+    width: 100%;
+    max-width: 540px;
+    border-radius: 15px;
+    background-color: #f1f5ff;
+    border: 1px solid #d4dffc;
+    padding: 24px;
+    transition: all 200ms;
+}
+
+.forgotPassword{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover{
+        color: #0046ff
+    }
+}
+
+.alternateLogin{
+    color: #0046ff;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover{
+        color: #111;
+    }
+}

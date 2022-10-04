@@ -1,0 +1,22 @@
+.slideIn {
+    &-enter {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    &-enter-done {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 300ms, transform 300ms;
+    }
+
+    &-exit {
+        opacity: 1;
+    }
+
+    &-exit-done {
+        opacity: 0;
+        transform: translateY(-5px);
+        transition: opacity 100ms, transform 100ms;
+    }
+}

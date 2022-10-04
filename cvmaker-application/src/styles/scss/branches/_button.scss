@@ -1,0 +1,11 @@
+.btn{
+    &.rounded{
+        border-radius: 35px !important;
+    }
+
+    &.btn-primary{
+        &:hover{
+            background-color: #1a0054;
+        }
+    }
+}

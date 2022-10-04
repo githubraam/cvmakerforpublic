@@ -1,0 +1,33 @@
+.previewCv{
+    size: A4;
+    width: 210mm;
+    /* height: 297mm; */
+}
+.jobTitle{
+    font-size: 1.2em;
+}
+.objective{
+    font-size: .85em;
+}
+
+.generalInfo{
+    font-size: 0.85em;
+}
+
+.title2{
+    font-size: 1.4em;
+}
+.title3{
+    font-size: 1.2em;
+}
+.experienceWrapper{
+    font-size: .85em;
+    margin-bottom: .85em;
+    padding-top: .85em;
+    padding-bottom: .85em;
+    
+    border-top: 1px solid #ccc;
+    h4{
+        font-size: 1em;
+    }
+}
